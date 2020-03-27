@@ -14,8 +14,6 @@ const CountryProgressTable = ({
 
   useEffect(() => {
     document.getElementById('tr-'+post).classList.add('bg-primary');
-    var elmnt = document.getElementsByClassName("table table-hover");
-    elmnt.scrollTop = 100;
   });
 
  
